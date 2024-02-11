@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  background-color: #2d3135;
+}
+
+.header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: dot;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.headerwelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  gap: 30px;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 20px;
+}
+button {
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0px;
+  color: white;
+  background-color: #242628;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #343a40;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+select {
+  padding: 10px 20px;
+  background-color: #242628;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
